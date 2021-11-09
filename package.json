@@ -1,0 +1,20 @@
+{
+  "name": "studio-lemat",
+  "version": "1.0.0",
+  "description": "Creative Agency website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alef-garrido/studio-lemat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alef-garrido/studio-lemat/issues"
+  },
+  "homepage": "https://github.com/alef-garrido/studio-lemat#readme"
+}
