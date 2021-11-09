@@ -1,1 +1,1 @@
-alert("Hey gurl!")
+import "./main.css"
