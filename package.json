@@ -1,10 +1,11 @@
 {
   "name": "studio-lemat",
   "version": "1.0.0",
+  "private": "true",
   "description": "Creative Agency website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/alef-garrido/studio-lemat/issues"
   },
-  "homepage": "https://github.com/alef-garrido/studio-lemat#readme"
+  "homepage": "https://github.com/alef-garrido/studio-lemat#readme",
+  "devDependencies": {
+    "webpack": "^5.63.0",
+    "webpack-cli": "^4.9.1"
+  }
 }
