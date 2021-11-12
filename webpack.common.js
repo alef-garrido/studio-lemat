@@ -16,13 +16,12 @@ module.exports = {
         'style-loader', //3. Inject styles into DOM
         'css-loader',   //2. Turns css into common js
         'sass-loader',   //1. Turns sass into css
-        ],
+        ]
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
-      },
-    ],
-  },
-
-}
+        test: /\.html$/i,
+        loader: "html-loader",
+      },   
+    ]
+  }
+};
