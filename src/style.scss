@@ -25,7 +25,7 @@ body {
 
 .f-row {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .f-col {
@@ -48,11 +48,15 @@ nav {
   }
 }
 
-#nav-mobile {
+#nav-mobile, #nav-desktop {
   align-items: center;
   justify-content: space-between;
   padding: 1em;
 }
 
+#hero {
+  background-image: url('./assets/Bckg-mob.png');
+  background-repeat: no-repeat;
+}
 
 @import "~bootstrap"
