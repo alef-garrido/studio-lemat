@@ -164,14 +164,68 @@ main {
     }
   }
   .cta {
-    width: 100%;
-    height: auto;
-    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
     button {
       color: white;
-      width: 80%;
-      height: auto;
     }
   }
-}
+  }
+  #services-cont {
+    align-items: center;
+    margin: 6rem 0;
+    background-image: url(./assets/bckg-black.svg),
+      url(./assets/bckg-deg-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    div {
+      width: 100%;
+      height: auto;
+    }
+    .serviceCard-2 {
+      width: 360px;
+      height: 283px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 2rem;
+      margin-top: -18%;
+      margin-bottom: 3rem;
+      background-color: white;
+      border-radius: 20%;
+
+      p {
+        text-align: center;
+      }
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+    button {
+      color: white;
+      padding: 1rem 2rem;
+    }
+  }
+  #servicesPill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/bckg-deg-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 115%;
+
+
+    .pills {
+      text-align: center;
+      margin-top: -20%;
+
+      img {
+        margin: 2rem 0;
+      }
+    }
+  }
 @import "~bootstrap";
