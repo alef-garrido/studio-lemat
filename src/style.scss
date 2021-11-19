@@ -129,7 +129,7 @@ nav {
       }
     }
     .menuList {
-      margin: 3rem 2rem;
+      padding: 3rem 2rem;
       ul {
         list-style: none;
         font-size: 29px;
@@ -137,7 +137,7 @@ nav {
         li {
           margin: 2rem 0;
           cursor: pointer;
-          :hover {
+          &:hover {
             width: 100vw;
             color: white;
             background: black;
@@ -200,15 +200,15 @@ main {
     button {
         padding: 1rem 2rem;
       }
-      .rrss {
-        margin: 2rem;
-        display: flex;
-        width: 120px;
-        height: auto;
-        img {
-          margin: 0 .5rem;
-        }
+    .rrss {
+      margin: 2rem;
+      display: flex;
+      width: 120px;
+      height: auto;
+      img {
+        margin: 0 .5rem;
       }
+    }
   }
   .arrowDown {
     width: 100%;
