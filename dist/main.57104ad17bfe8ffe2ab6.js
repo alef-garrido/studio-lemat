@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.getElementById("navContainer"),n=document.getElementById("menuContainer"),t=document.querySelector(".menuBtns"),c=function(e,t){e.target.classList.contains(t)&&(console.log(e),n.classList.toggle("hide"))};e.addEventListener("click",(e=>c(e,"menuIcon"))),t.addEventListener("click",(e=>c(e,"closeBtn")))})();
