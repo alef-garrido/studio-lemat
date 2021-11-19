@@ -117,18 +117,46 @@ nav {
     position: absolute;
     background-color: white;
     .menuBtns {
+      width: 90%;
+      height: fit-content;
+      margin: 2rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
 
+      .closeBtn {
+        cursor: pointer;
+      }
     }
-    ul {
-      list-style: none;
+    .menuList {
+      margin: 3rem 2rem;
+      ul {
+        list-style: none;
+        font-size: 29px;
+
+        li {
+          margin: 2rem 0;
+          cursor: pointer;
+          :hover {
+            width: 100vw;
+            color: white;
+            background: black;
+          }
+        }
+      }
+    }
+    .rrss {
+      margin-left: 4rem;
+      width: 80%;
+
+      img {
+        width: 12%;
+        margin: 0 1rem 0 0;
+        cursor: pointer;
+      }
     }
   }
-  .menuBtns{
-    height: 25%;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-  }
+
 }
 
 #nav-mobile, #nav-desktop {
@@ -198,14 +226,17 @@ main {
 #services {
   background: transparent;
   margin-top: -33%;
+  margin-bottom: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
   .decoration {
     width: 100%;
-    text-align: right;
     padding: 0 0.5rem;
     z-index: 1;
+    img {
+      float: right;
+    }
   }
   .serviceCard {
     width: 90%;
@@ -229,15 +260,10 @@ main {
       }
     }
   }
-  .cta {
-    width: fit-content;
-    margin: 0 auto;
-    button {
-      color: white;
-    }
-  }
-  }
+
+}
   #services-cont {
+    width: 100%;
     align-items: center;
     margin: 6rem 0;
     background-image: url(./assets/bckg-black.svg),
@@ -273,6 +299,21 @@ main {
     button {
       color: white;
       padding: 1rem 2rem;
+    }
+  }
+  .cta {
+    width: fit-content;
+    height: auto;
+    margin: 3rem auto;
+    button {
+      display: flex;
+      align-items: center;
+      color: white;
+      font-size: small;
+
+      span {
+        margin: 0 .5rem;
+      }
     }
   }
   #servicesPill {
@@ -317,7 +358,15 @@ main {
   }
   #contact {
     width: 100%;
-    height: 250px;
+    height: auto;
+    margin: 8rem 0;
+    h2 {
+      margin: 2rem;
+      font-size: 4em;
+    }
+    div {
+      margin: 1rem;
+     }
   }
   footer {
     background-color: black;

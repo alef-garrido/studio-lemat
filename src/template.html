@@ -12,7 +12,7 @@
       <div id="nav-desktop" class="hide">
         <div>
           <a href="lemat.studio">
-            <img src="./assets/siteLogo.svg" alt="site logo">
+            <img src="#" alt="site logo">
           </a>
         </div>
         <div>
@@ -26,7 +26,7 @@
       </div>
       <div id="nav-mobile" class="f-row">
         <a>
-          <img src="./assets/siteLogo-mob.svg"/>
+          <img src="./assets/siteLogo-mob.png"/>
         </a>
         <a>
           <img class="menuIcon" src="./assets/menu-mob.svg" alt="">
@@ -35,23 +35,25 @@
     </div>
     <div id="menuContainer" class="hide">
       <div class="menuBtns">
-        <button class="btn btn-primary" type="button" name="button">Empezar</button>
-        <div id="closeBtn">
-          <a href="#">CLOSE</a>
-        </div>
+        <button class="btn btn-primary rounded-pill ms-4" type="button" name="button">Empezar</button>
+        <a>
+          <img  class="closeBtn" src="https://img.icons8.com/windows/32/000000/macos-close.png"/>
+        </a>
       </div>
       <div class="menuList">
         <ul>
-          <li>Inicio</li>
-          <li>Servicios</li>
-          <li>Talleres</li>
-          <li>Sobre Studio Lemat</li>
-          <li>Contacto</li>
-          <li>Blog</li>
-          <li>Terminos & condiciones</li>
+          <li><a>Inicio</a></li>
+          <li><a>Servicios</a></li>
+          <li><a>Talleres</a></li>
+          <li><a>Sobre Studio Lemat</a></li>
+          <li><a>Contacto</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Terminos & condiciones</a></li>
         </ul>
-        <div class="rrss">
-        </div>
+      </div>
+      <div class="rrss f-row">
+        <img src="https://img.icons8.com/color/32/000000/instagram-new--v2.png"/>
+        <img src="https://img.icons8.com/color/48/000000/twitter--v2.png"/>
       </div>
     </div>
   </nav>
@@ -102,17 +104,6 @@
         </span>
       </button>
     </div>
-    <div class="cta">
-      <button class="btn btn-primary btn-lg
-
-
-      " type="button" name="button">
-        INICIAR CHAT CON UN ASISTENTE
-        <span>
-          <img src="https://img.icons8.com/material-rounded/24/ffffff/double-right.png"/>
-        </span>
-      </button>
-    </div>
   </section>
   <section id="services-cont" class="f-col">
     <div>
@@ -125,6 +116,14 @@
     </div>
     <img src="./assets/deco-ship-3.png" alt="page decoration">
   </section>
+  <div class="cta">
+    <button class="btn btn-primary btn-lg" type="button" name="button">
+      INICIAR CHAT CON UN ASISTENTE
+      <span>
+        <img src="https://img.icons8.com/material-rounded/24/ffffff/double-right.png"/>
+      </span>
+    </button>
+  </div>
   <section id="servicesPill">
     <img src="./assets/deco-bssMan-4.png" alt="page decoration">
     <div class="pills">
@@ -153,7 +152,25 @@
     </div>
   </section>
   <section id="contact">
-    
+    <h2>Dinos Hola!</h2>
+    <form class="" action="index.html" method="post">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Tu nombre</label>
+        <input type="text" class="form-control" id="userName" aria-describedby="emailHelp" placeholder="Nombre">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Tu correo electronico</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ejemplo@correo.com">
+        <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo con nadie.</small>
+      </div>
+      <div class="form-group">
+      <label for="exampleFormControlTextarea1">Escribe un mensaje</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+      <div class="">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
   </section>
   </main>
   <footer>
