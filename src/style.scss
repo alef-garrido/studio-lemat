@@ -113,6 +113,7 @@ nav {
   #menuContainer {
     width: 100vw;
     height: 100vh;
+    padding: 0 6rem;
     top:0;
     left: 0;
     position: absolute;
@@ -130,7 +131,8 @@ nav {
       }
     }
     .menuList {
-      padding: 3rem 2rem;
+      padding: 0 2rem;
+      text-align: center;
       ul {
         list-style: none;
         font-size: 29px;
@@ -147,12 +149,12 @@ nav {
       }
     }
     .rrss {
-      margin-left: 4rem;
-      width: 80%;
+      width: 50%;
+      margin: 0 auto;
+      justify-content: center;
 
       img {
         width: 12%;
-        margin: 0 1rem 0 0;
         cursor: pointer;
       }
     }
@@ -1029,7 +1031,9 @@ footer {
     padding: 20px 0;
     align-items: center;
     img {
-      margin-bottom: 5rem
+      width: 100%;
+      height: auto;
+      margin-bottom: 15rem;
     }
     p {
       font-size: 1.5rem;
