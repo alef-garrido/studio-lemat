@@ -528,7 +528,7 @@ footer {
     margin: 3rem auto;
     p {
     text-align: center;
-    margin: 1rem; 
+    margin: 1rem;
     }
     button {
       display: flex;
@@ -1086,7 +1086,7 @@ footer {
     }
   }
   .serviceCard-3 {
-    margin: 6rem 3rem;
+    margin: 10rem 3rem;
     background: #FE8519;
     box-shadow: 40px 40px 100px rgba(24, 48, 63, 0.5);
     border-radius: 40px;
@@ -1122,7 +1122,7 @@ footer {
   #contact {
     width: 100%;
     height: auto;
-    margin: 8rem auto;
+    margin: 15rem auto;
     h2 {
       margin: 2rem;
       font-size: 4em;
@@ -1135,10 +1135,14 @@ footer {
     }
   }
   footer {
-    background-color: black;
+    justify-content: flex-end;
+    background-color: transparent;
+    background-image: url(./assets/FooterBck.svg);
+    background-repeat: no-repeat;
     width: 100%;
-    height: auto;
+    height: 430px;
     p {
+      color: white;
       padding: 1rem 0;
     }
   }
