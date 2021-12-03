@@ -113,6 +113,7 @@ nav {
   #menuContainer {
     width: 100vw;
     height: 100vh;
+    padding: 0 6rem;
     top:0;
     left: 0;
     position: absolute;
@@ -130,7 +131,8 @@ nav {
       }
     }
     .menuList {
-      padding: 3rem 2rem;
+      padding: 0 2rem;
+      text-align: center;
       ul {
         list-style: none;
         font-size: 29px;
@@ -147,12 +149,12 @@ nav {
       }
     }
     .rrss {
-      margin-left: 4rem;
-      width: 80%;
+      width: 50%;
+      margin: 0 auto;
+      justify-content: center;
 
       img {
         width: 12%;
-        margin: 0 1rem 0 0;
         cursor: pointer;
       }
     }
@@ -526,9 +528,14 @@ footer {
     width: fit-content;
     height: auto;
     margin: 3rem auto;
+    p {
+    text-align: center;
+    margin: 1rem;
+    }
     button {
       display: flex;
       align-items: center;
+      justify-content: center;
       color: white;
       font-size: small;
 
@@ -541,6 +548,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3rem;
     background-image: url(./assets/bckg-deg-2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -597,6 +605,9 @@ footer {
       margin: 2rem;
       font-size: 4em;
     }
+    form {
+      margin: 4rem 2rem;
+    }
     div {
       margin: 1rem;
     }
@@ -610,7 +621,6 @@ footer {
     }
   }
 }
-
 
 @media screen and (min-width: 768px) {
   main {
@@ -719,7 +729,7 @@ footer {
     padding-bottom: 23rem;
     background-image: url(./assets/bckg-black.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
     div {
       width: 100%;
@@ -742,7 +752,7 @@ footer {
 
       p {
         text-align: center;
-        margin: .5rem 0;
+        margin: 1.5rem 0;
       }
     }
     img {
@@ -773,7 +783,7 @@ footer {
       width: 50%;
       height: 50px;
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       margin: 2rem 0;
       align-items: center;
       color: white;
@@ -805,7 +815,7 @@ footer {
 
     .pills {
       text-align: center;
-      margin-top: -20%;
+      margin-top: 0%;
       margin-bottom: 35%;
 
       img {
@@ -982,6 +992,7 @@ footer {
     div {
       width: 100%;
       height: auto;
+      margin-top: -17%;
     }
     .serviceCard-2 {
       width: 70%;
@@ -992,13 +1003,14 @@ footer {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 2rem;
+      padding: 3rem;
       margin-top: -18%;
       margin-bottom: 3rem;
 
 
       p {
         text-align: center;
+        margin: 2rem 0;
       }
     }
     img {
@@ -1015,10 +1027,13 @@ footer {
     width: fit-content;
     height: auto;
     margin-top: -21rem;
+    margin-bottom: 15rem;
     padding: 20px 0;
     align-items: center;
     img {
-      margin-bottom: 5rem
+      width: 100%;
+      height: auto;
+      margin-bottom: 15rem;
     }
     p {
       font-size: 1.5rem;
@@ -1029,7 +1044,7 @@ footer {
       width: 50%;
       height: 50px;
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       margin: 2rem 0;
       align-items: center;
       color: white;
@@ -1050,38 +1065,44 @@ footer {
     }
   }
   #servicesPill {
+    width: 100%;
+    height: 1600px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(./assets/bckg-deg-2.png);
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 4rem 0;
+    background-image: url(./assets/Service-pills.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 115%;
+    background-position: 0% 115%, 0% 0%;
 
+    img {
+      display: none;
+    }
 
     .pills {
-      text-align: center;
-      margin-top: -20%;
-      margin-bottom: 35%;
+      display: none;
 
       img {
-        margin: 2rem 0;
+        display:  none;
       }
     }
   }
   .serviceCard-3 {
+    margin: 10rem 3rem;
     background: #FE8519;
     box-shadow: 40px 40px 100px rgba(24, 48, 63, 0.5);
     border-radius: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 
     .frontCard {
       width: 95%;
       background-color: white;
       border-radius: 40px;
-      padding: 6rem 1rem;
+      padding: 6rem 5rem;
 
       button {
         margin-top: 1.5rem;
@@ -1090,6 +1111,7 @@ footer {
     .dropBckg {
       width: 100%;
       height: auto;
+      margin-bottom: -1.5%;
       justify-content: end;
 
       div {
@@ -1104,20 +1126,27 @@ footer {
   #contact {
     width: 100%;
     height: auto;
-    margin: 8rem 0;
+    margin: 15rem auto;
     h2 {
       margin: 2rem;
       font-size: 4em;
+    }
+    form {
+      margin: 4rem 8rem;
     }
     div {
       margin: 1rem;
     }
   }
   footer {
-    background-color: black;
+    justify-content: flex-end;
+    background-color: transparent;
+    background-image: url(./assets/FooterBck.svg);
+    background-repeat: no-repeat;
     width: 100%;
-    height: auto;
+    height: 430px;
     p {
+      color: white;
       padding: 1rem 0;
     }
   }
